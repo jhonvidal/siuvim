@@ -1,8 +1,8 @@
+
 <h1 align="center">
-  <br>
-  <a href="https://github.com/jhonvidal/siuvim">
-    <img src="https://private-user-images.githubusercontent.com/1105101/312319262-ece5e227-5678-4706-b5a2-c5ab46711582.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTAzMDc2NzgsIm5iZiI6MTcxMDMwNzM3OCwicGF0aCI6Ii8xMTA1MTAxLzMxMjMxOTI2Mi1lY2U1ZTIyNy01Njc4LTQ3MDYtYjVhMi1jNWFiNDY3MTE1ODIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDMxMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAzMTNUMDUyMjU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjEyZGY3ODY5YzJmZmVhYTA3YmI5MTExZjEzNDhhZTIwYWQyZDEzNDIwMmI5YzJhYzQ0ODlmMWU1ZTU4OGNkYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.pjae_rlfLQxT7MHRQEyI047RGjhbJXGK0hcpbm5ysc4" alt="Markdownify" width="200">
-  </a>
+<a href="https://github.com/jhonvidal/siuvim">
+<img src="https://github.com/jhonvidal/siuvim/assets/1105101/03e0431d-a771-4778-bc30-c72d66c28656" width="200" >
+</a>
   <br>
   siuvim
   <br>
