@@ -34,6 +34,7 @@ In addition to the nvchad based features, I have added third party plugin to imp
 * Support for django framework (template formatter with djlint)
 * Autocompletion support for Django framework templates (snippets included)
 * LSP configuration for python and htmldjango
+* Integration with the codeium artificial intelligence tool
 
 ## How To Use
 
