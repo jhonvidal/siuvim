@@ -1,0 +1,27 @@
+local cmp = require("cmp")
+local M = {}
+
+M.setup_cmdline_cmp = function()
+  cmp.setup.cmdline('/', {
+      mapping = cmp.mapping.preset.cmdline(),
+      sources = {
+        { name = 'buffer' }
+      }
+    })
+  
+	cmp.setup.cmdline(":", {
+		mapping = cmp.mapping.preset.cmdline(),
+		sources = cmp.config.sources({
+			{ name = "path" },
+		}, {
+			{
+				name = "cmdline",
+				option = {
+					ignore_cmds = { "Man", "!" },
+				},
+			},
+		}),
+	})
+end
+
+return M
