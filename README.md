@@ -51,6 +51,13 @@ $ rm -rf ~/.local/share/nvim
 $ git clone https://github.com/jhonvidal/siuvim.git ~/.config/nvim/
 $ nvim
 ```
+Then within the neovim editor write the following commands:
+
+```bash
+:MasonInstallAll
+and
+:Lazy sync
+```
 
 ## License
 
