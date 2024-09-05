@@ -31,6 +31,31 @@ return {
 		end,
 	},
 
+	{
+		"Exafunction/codeium.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"hrsh7th/nvim-cmp",
+		},
+		config = function()
+			require("codeium").setup({})
+		end,
+		event = "VeryLazy",
+	},
+
+	{
+		"hrsh7th/nvim-cmp",
+		event = "InsertEnter",
+		opts = function(_, opts)
+			-- Extiende las opciones predeterminadas de NvChad
+			local cmp = require("cmp")
+			opts.sources = cmp.config.sources(vim.list_extend(opts.sources, {
+				{ name = "codeium" }, -- Añadir Codeium como fuente de completado
+			}))
+			return opts
+		end,
+	},
+
 	-- {
 	-- 	"nvim-treesitter/nvim-treesitter",
 	-- 	opts = {

@@ -22,3 +22,25 @@ end
 --   on_init = nvlsp.on_init,
 --   capabilities = nvlsp.capabilities,
 -- }
+
+lspconfig.pylsp.setup({
+	on_attach = nvlsp.on_attach,
+	capabilities = nvlsp.capabilities,
+	on_init = nvlsp.on_init,
+	settings = {
+		pylsp = {
+			configurationSources = { "flake8" },
+			plugins = {
+				flake8 = {
+					enabled = true,
+					maxLineLength = 100,
+				},
+				pyflakes = { enabled = false },
+				pycodestyle = { enabled = false },
+				pylint = { enabled = false },
+				yapf = { enabled = false },
+				pyls_mypy = { enabled = true, live_mode = false },
+			},
+		},
+	},
+})
