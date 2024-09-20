@@ -56,6 +56,22 @@ return {
 		end,
 	},
 
+	{
+		"L3MON4D3/LuaSnip",
+		dependencies = "rafamadriz/friendly-snippets",
+		opts = { history = true, updateevents = "TextChanged,TextChangedI" },
+		config = function(_, opts)
+			-- Carga la configuración por defecto de NvChad
+			require("luasnip").config.set_config(opts)
+
+			-- Carga la configuración predeterminada de NvChad
+			require("nvchad.configs.luasnip")
+
+			-- Carga tu configuración personalizada de siuvim
+			require("configs.luasnip")
+		end,
+	},
+
 	-- {
 	-- 	"nvim-treesitter/nvim-treesitter",
 	-- 	opts = {
