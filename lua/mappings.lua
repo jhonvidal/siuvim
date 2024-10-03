@@ -1,4 +1,5 @@
 require("nvchad.mappings")
+vim.g.vscode_snippets_path = vim.fn.stdpath("config") .. "/lua/snips"
 
 -- add yours here
 

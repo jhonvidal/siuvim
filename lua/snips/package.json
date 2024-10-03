@@ -1,0 +1,11 @@
+{
+  "name": "ccc-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "htmldjango",
+        "path": "./snippets/htmldjango.json"
+      }
+    ]
+  }
+}
